@@ -1,0 +1,255 @@
+2019-10-12 11:19:42,739 - [test_addProduct.py-->line:60] - ERROR: 
+用例--账号正常登录--未通过
+2019-10-12 11:19:42,739 - [test_addProduct.py-->line:61] - ERROR: 110000 != '{"status":"110000","msg":"OK","data":null}'
+2019-10-12 11:24:12,864 - [test_addProduct.py-->line:60] - ERROR: 
+用例--账号正常登录--未通过
+2019-10-12 11:24:12,864 - [test_addProduct.py-->line:61] - ERROR: 110000 != '{"status":"110000","msg":"OK","data":null}'
+2019-10-12 11:24:50,508 - [test_addProduct.py-->line:60] - ERROR: 
+用例--账号正常登录--未通过
+2019-10-12 11:24:50,508 - [test_addProduct.py-->line:61] - ERROR: 110000 != '{"status":"110000","msg":"OK","data":null}'
+2019-10-12 11:25:57,235 - [test_addProduct.py-->line:60] - ERROR: 
+用例--账号正常登录--未通过
+2019-10-12 11:25:57,235 - [test_addProduct.py-->line:61] - ERROR: 110000 != '{"status":"110000","msg":"OK","data":null}'
+2019-10-12 11:26:25,559 - [test_addProduct.py-->line:60] - ERROR: 
+用例--账号正常登录--未通过
+2019-10-12 11:26:25,560 - [test_addProduct.py-->line:61] - ERROR: 110000 != '{"status":"110000","msg":"OK","data":null}'
+2019-10-12 11:26:54,234 - [test_addProduct.py-->line:60] - ERROR: 
+用例--账号正常登录--未通过
+2019-10-12 11:26:54,234 - [test_addProduct.py-->line:61] - ERROR: '{"st[18 chars]g":"OK","data":null}{"status":"110000","msg":"OK","data":null}' != '{"st[18 chars]g":"OK","data":null}'
+- {"status":"110000","msg":"OK","data":null}{"status":"110000","msg":"OK","data":null}
++ {"status":"110000","msg":"OK","data":null}
+
+2019-10-12 11:30:11,631 - [test_addProduct.py-->line:60] - ERROR: 
+用例--账号正常登录--未通过
+2019-10-12 11:30:11,632 - [test_addProduct.py-->line:61] - ERROR: '{"st[18 chars]g":"OK","data":null}{"status":"110000","msg":"OK","data":null}' != '{"st[18 chars]g":"OK","data":null}'
+- {"status":"110000","msg":"OK","data":null}{"status":"110000","msg":"OK","data":null}
++ {"status":"110000","msg":"OK","data":null}
+
+2019-10-12 11:33:14,706 - [test_addProduct.py-->line:60] - ERROR: 
+用例--账号正常登录--未通过
+2019-10-12 11:33:14,706 - [test_addProduct.py-->line:61] - ERROR: '{"status":"110000","msg":"OK","data":none}' != '{"status":"110000","msg":"OK","data":null}'
+- {"status":"110000","msg":"OK","data":none}
+?                                       ^^^
++ {"status":"110000","msg":"OK","data":null}
+?                                       ^^^
+
+2019-10-12 14:10:44,972 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 14:10:44,972 - [test_addProduct.py-->line:61] - ERROR: 110000 != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 14:19:39,850 - [test_addProduct.py-->line:60] - ERROR: 
+用例--账号正常登录--未通过
+2019-10-12 14:19:39,850 - [test_addProduct.py-->line:61] - ERROR: 11000 != '{"status":"110000","msg":"OK","data":null}'
+2019-10-12 14:19:39,928 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 14:19:39,928 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 14:25:40,141 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 14:25:40,142 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 14:29:19,407 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 14:29:19,407 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 14:34:16,669 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 14:34:16,669 - [test_addProduct.py-->line:61] - ERROR: '{"status":"110000","msg":"OK","data":{"mergeManageDataR[1301 chars]ll}}' != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+Diff is 1407 characters long. Set self.maxDiff to None to see it.
+2019-10-12 14:37:41,054 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 14:37:41,054 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 14:48:05,879 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 14:48:05,879 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 14:56:45,307 - [test_addProduct.py-->line:60] - ERROR: 
+用例--获取登录信息--未通过
+2019-10-12 14:56:45,308 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110000","msg":"OK","data":{"e[156 chars]50}}'
+2019-10-12 14:57:08,448 - [test_addProduct.py-->line:60] - ERROR: 
+用例--获取登录信息--未通过
+2019-10-12 14:57:08,448 - [test_addProduct.py-->line:61] - ERROR: '{"st[31 chars]":{"e[156 chars]50}}' != '{"st[31 chars]":{"employeeName":"123","lanage":"zh-CN","corp[115 chars]50}}'
+- {"status":"110000","msg":"OK","data":{"e[156 chars]50}}
++ {"status":"110000","msg":"OK","data":{"employeeName":"123","lanage":"zh-CN","corpId":1,"timeZone":"UTC+08:00","employeeId":50,"employeeDeptStrs":"1195921153808375808,1397469522389942272","userId":50}}
+
+2019-10-12 15:02:27,699 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 15:02:27,699 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 15:03:18,885 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 15:03:18,885 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 15:32:10,458 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 15:32:10,458 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 15:49:40,626 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 15:49:40,626 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 15:50:58,589 - [test_addProduct.py-->line:60] - ERROR: 
+用例--账号正常登录--未通过
+2019-10-12 15:50:58,589 - [test_addProduct.py-->line:61] - ERROR: '{"status":"110000","msg":"OK","data":null}' != '{"status":"230001","msg":"wrong password","data":null}'
+- {"status":"110000","msg":"OK","data":null}
+?            ^^   ^         ^^
++ {"status":"230001","msg":"wrong password","data":null}
+?            ^^   ^         ^^^^^^^^^^^^^^
+
+2019-10-12 15:50:59,157 - [test_addProduct.py-->line:60] - ERROR: 
+用例--获取登录信息--未通过
+2019-10-12 15:50:59,157 - [test_addProduct.py-->line:61] - ERROR: '{"status":"110000","msg":"OK","data":{"employeeName"[144 chars]50}}' != '{"status":"230000","msg":"Not logged in","data":null}'
+- {"status":"110000","msg":"OK","data":{"employeeName":"123","lanage":"zh-CN","corpId":1,"timeZone":"UTC+08:00","employeeId":50,"employeeDeptStrs":"1195921153808375808,1397469522389942272","userId":50}}
++ {"status":"230000","msg":"Not logged in","data":null}
+
+2019-10-12 15:50:59,334 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 15:50:59,334 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"10001","msg":"未登录","data":{}}'
+2019-10-12 15:52:07,464 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 15:52:07,464 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 15:54:12,564 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 15:54:12,564 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 15:56:49,740 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 15:56:49,740 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 16:15:19,898 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 16:15:19,898 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 16:24:45,419 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 16:24:45,419 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 16:27:06,190 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 16:27:06,190 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 16:27:06,295 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加酒店--未通过
+2019-10-12 16:27:06,295 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 16:36:27,314 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 16:36:27,314 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 16:36:27,515 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加酒店--未通过
+2019-10-12 16:36:27,515 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110000","msg":"OK","data":{"m[3156 chars]ll}}'
+2019-10-12 16:37:17,548 - [test_addProduct.py-->line:60] - ERROR: 
+用例--正常添加客户--未通过
+2019-10-12 16:37:17,548 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-12 17:57:09,163 - [test_addProduct.py-->line:59] - ERROR: 
+用例--正常添加酒店--未通过
+2019-10-12 17:57:09,165 - [test_addProduct.py-->line:60] - ERROR: None != '{"status":"110000","msg":"OK","data":{"m[3154 chars]ll}}'
+2019-10-12 17:57:55,223 - [test_addProduct.py-->line:59] - ERROR: 
+用例--正常添加酒店--未通过
+2019-10-12 17:57:55,223 - [test_addProduct.py-->line:60] - ERROR: '{"st[104 chars]05540153925668864","code":null,"productName":"[3040 chars]ll}}' != '{"st[104 chars]05540944199651328","code":null,"productName":"[3040 chars]ll}}'
+Diff is 11251 characters long. Set self.maxDiff to None to see it.
+2019-10-12 17:59:49,966 - [test_addProduct.py-->line:59] - ERROR: 
+用例--添加客户--未通过
+2019-10-12 17:59:49,966 - [test_addProduct.py-->line:60] - ERROR: None != '{"status":"241021","msg":"客户名称已存在","data":null}'
+2019-10-14 10:50:43,700 - [test_addProduct.py-->line:59] - ERROR: 
+用例--添加客户--未通过
+2019-10-14 10:50:43,700 - [test_addProduct.py-->line:60] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-14 10:52:23,496 - [test_addProduct.py-->line:59] - ERROR: 
+用例--添加客户--未通过
+2019-10-14 10:52:23,496 - [test_addProduct.py-->line:60] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-14 10:53:00,052 - [test_addProduct.py-->line:59] - ERROR: 
+用例--添加客户--未通过
+2019-10-14 10:53:00,053 - [test_addProduct.py-->line:60] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-14 11:25:01,385 - [test_addProduct.py-->line:59] - ERROR: 
+用例--添加客户--未通过
+2019-10-14 11:25:01,385 - [test_addProduct.py-->line:60] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-14 14:41:56,807 - [test_addProduct.py-->line:60] - ERROR: 
+用例--添加客户--未通过
+2019-10-14 14:41:56,807 - [test_addProduct.py-->line:61] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-14 14:45:52,028 - [test_addProduct.py-->line:59] - ERROR: 
+用例--添加客户--未通过
+2019-10-14 14:45:52,029 - [test_addProduct.py-->line:60] - ERROR:  :: None != {"status":"110999","msg":"未知错误,请联系管理员!","data":null}
+2019-10-14 14:45:52,590 - [test_addProduct.py-->line:59] - ERROR: 
+用例--定制行程报价--未通过
+2019-10-14 14:45:52,590 - [test_addProduct.py-->line:60] - ERROR:  :: None != {"status":"110999","msg":"未知错误,请联系管理员!","data":null}
+2019-10-14 14:47:32,224 - [test_addProduct.py-->line:59] - ERROR: 
+用例--添加客户--未通过
+2019-10-14 14:47:32,224 - [test_addProduct.py-->line:60] - ERROR:  :: None != {"status":"110999","msg":"未知错误,请联系管理员!","data":null}
+2019-10-14 14:47:32,384 - [test_addProduct.py-->line:59] - ERROR: 
+用例--定制行程报价--未通过
+2019-10-14 14:47:32,385 - [test_addProduct.py-->line:60] - ERROR:  :: None != {"status":"110999","msg":"未知错误,请联系管理员!","data":null}
+2019-10-14 14:47:38,764 - [test_addProduct.py-->line:59] - ERROR: 
+用例--添加客户--未通过
+2019-10-14 14:47:38,765 - [test_addProduct.py-->line:60] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-14 14:47:38,962 - [test_addProduct.py-->line:59] - ERROR: 
+用例--定制行程报价--未通过
+2019-10-14 14:47:38,962 - [test_addProduct.py-->line:60] - ERROR: None != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2019-10-15 09:54:27,781 - [test_addProduct.py-->line:59] - ERROR: 
+用例--添加客户--未通过
+2019-10-15 09:54:27,781 - [test_addProduct.py-->line:60] - ERROR: None != '{"status":"110000","msg":"OK","data":{"m[1158 chars]ll}}'
+2019-10-15 09:54:28,070 - [test_addProduct.py-->line:59] - ERROR: 
+用例--定制行程报价--未通过
+2019-10-15 09:54:28,071 - [test_addProduct.py-->line:60] - ERROR: None != '{"status":"321011","msg":"对外报价的币种代码不能为空","data":null}'
+2019-10-15 11:51:29,136 - [test_addProduct.py-->line:59] - ERROR: 
+用例--添加客户--未通过
+2019-10-15 11:51:29,137 - [test_addProduct.py-->line:60] - ERROR: None != '{"status":"241021","msg":"客户名称已存在","data":null}'
+2019-10-15 11:51:29,465 - [test_addProduct.py-->line:59] - ERROR: 
+用例--定制行程报价--未通过
+2019-10-15 11:51:29,465 - [test_addProduct.py-->line:60] - ERROR: None != '{"status":"321011","msg":"对外报价的币种代码不能为空","data":null}'
+2019-10-15 16:10:25,314 - [test_addProduct.py-->line:59] - ERROR: 
+用例--添加客户--未通过
+2019-10-15 16:10:25,314 - [test_addProduct.py-->line:60] - ERROR: None != '{"status":"252001","msg":"客户名称不能为空","data":null}'
+2019-10-15 17:10:59,780 - [test_addProduct.py-->line:77] - ERROR: 
+用例--添加客户--未通过
+2019-10-15 17:10:59,780 - [test_addProduct.py-->line:78] - ERROR: None != '{"status":"10001","msg":"未登录","data":{}}'
+2019-10-15 17:12:14,402 - [test_addProduct.py-->line:77] - ERROR: 
+用例--添加客户--未通过
+2019-10-15 17:12:14,403 - [test_addProduct.py-->line:78] - ERROR: None != '{"status":"10001","msg":"未登录","data":{}}'
+2019-10-15 17:13:28,518 - [test_addProduct.py-->line:77] - ERROR: 
+用例--添加客户--未通过
+2019-10-15 17:13:28,518 - [test_addProduct.py-->line:78] - ERROR: None != '{"status":"10001","msg":"未登录","data":{}}'
+2019-10-15 17:18:56,919 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-15 17:18:56,919 - [test_addProduct.py-->line:79] - ERROR:  :: None != {"status":"10001","msg":"未登录","data":{}}
+2019-10-15 17:19:01,807 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-15 17:19:01,807 - [test_addProduct.py-->line:79] - ERROR: None != '{"status":"10001","msg":"未登录","data":{}}'
+2019-10-15 17:41:53,071 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-15 17:41:53,071 - [test_addProduct.py-->line:79] - ERROR: None != '{"status":"10001","msg":"未登录","data":{}}'
+2019-10-15 17:53:23,727 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-15 17:53:23,727 - [test_addProduct.py-->line:79] - ERROR: None != '{"status":"10001","msg":"未登录","data":{}}'
+2019-10-15 17:53:35,628 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-15 17:53:35,628 - [test_addProduct.py-->line:79] - ERROR: None != '{"status":"10001","msg":"未登录","data":{}}'
+2019-10-15 17:54:25,658 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-15 17:54:25,659 - [test_addProduct.py-->line:79] - ERROR: None != '{"status":"110000","msg":"OK","data":{"m[1163 chars]ll}}'
+2019-10-15 17:54:45,314 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-15 17:54:45,315 - [test_addProduct.py-->line:79] - ERROR: None != '{"status":"241021","msg":"客户名称已存在","data":null}'
+2019-10-30 15:00:21,149 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-30 15:00:21,150 - [test_addProduct.py-->line:79] - ERROR: None != '{"status":"241021","msg":"客户名称已存在","data":null}'
+2019-10-30 15:05:31,807 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-30 15:05:31,807 - [test_addProduct.py-->line:79] - ERROR:  :: None != {"status":"10001","msg":"未登录","data":{}}
+2019-10-30 15:06:16,946 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-30 15:06:16,947 - [test_addProduct.py-->line:79] - ERROR:  :: None != {"status":"10001","msg":"未登录","data":{}}
+2019-10-30 15:06:27,644 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-30 15:06:27,645 - [test_addProduct.py-->line:79] - ERROR:  :: None != {"status":"10001","msg":"未登录","data":{}}
+2019-10-30 15:06:33,221 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-30 15:06:33,221 - [test_addProduct.py-->line:79] - ERROR:  :: None != {"status":"10001","msg":"未登录","data":{}}
+2019-10-30 15:06:41,275 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-30 15:06:41,275 - [test_addProduct.py-->line:79] - ERROR:  :: None != {"status":"10001","msg":"未登录","data":{}}
+2019-10-30 15:06:49,704 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-30 15:06:49,705 - [test_addProduct.py-->line:79] - ERROR:  :: None != {"status":"10001","msg":"未登录","data":{}}
+2019-10-30 15:06:57,284 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-30 15:06:57,284 - [test_addProduct.py-->line:79] - ERROR:  :: None != {"status":"10001","msg":"未登录","data":{}}
+2019-10-30 15:07:04,160 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-30 15:07:04,160 - [test_addProduct.py-->line:79] - ERROR:  :: None != {"status":"10001","msg":"未登录","data":{}}
+2019-10-30 15:07:12,646 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-30 15:07:12,646 - [test_addProduct.py-->line:79] - ERROR:  :: None != {"status":"10001","msg":"未登录","data":{}}
+2019-10-30 15:07:37,834 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-30 15:07:37,834 - [test_addProduct.py-->line:79] - ERROR: None != '{"status":"10001","msg":"未登录","data":{}}'
+2019-10-30 15:07:59,850 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-30 15:07:59,850 - [test_addProduct.py-->line:79] - ERROR: None != '{"status":"10001","msg":"未登录","data":{}}'
+2019-10-30 15:12:45,384 - [test_addProduct.py-->line:78] - ERROR: 
+用例--添加客户--未通过
+2019-10-30 15:12:45,385 - [test_addProduct.py-->line:79] - ERROR: None != '{"status":"110000","msg":"OK","data":{"m[1234 chars]ll}}'
