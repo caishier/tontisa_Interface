@@ -116,18 +116,18 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">接口测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> shier</p>
-<p class='attribute'><strong>开始时间 : </strong> 2019-10-15 17:12:14</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.110704</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 2，失败 1，错误 1，通过率= 0.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-09-05 10:01:02</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.864519</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 2，通过 1，错误 1，通过率= 50.00%</p>
 
 <p class='description'>测试报告</p>
 </div>
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 0.00% }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 1 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 0 }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 50.00% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 1 }</a>
 <a class="btn btn-info" href='javascript:showCase(3)'>所有{ 2 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
@@ -150,15 +150,15 @@ function html_escape(s) {
 
 <tr class='errorClass warning'>
     <td>test_addProduct.AddProductTestCase</td>
-    <td class="text-center">2</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
     <td class="text-center">0</td>
     <td class="text-center">1</td>
-    <td class="text-center">1</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
 </tr>
 
 <tr id='ft1_1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_addProduct_1: 账号正常登录</div></td>
+    <td class='errorCase'><div class='testcase'>test_addProduct_1: 名称为空</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
     <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
@@ -169,11 +169,12 @@ function html_escape(s) {
     <pre>
     
 ft1_1: Traceback (most recent call last):
-  File "D:\tontisaInterface\librarys\ddt.py", line 150, in wrapper
+  File "D:\gitHub\tontisaInterface\librarys\ddt.py", line 150, in wrapper
     return func(self, *args, **kwargs)
-  File "D:\tontisaInterface\testcases\test_addProduct.py", line 63, in test_addProduct
-    case.data = case.data.replace("*customer_name*", name_kh)
-UnboundLocalError: local variable 'name_kh' referenced before assignment
+  File "D:\gitHub\tontisaInterface\testcases\test_addProduct.py", line 72, in test_addProduct
+    res = self.request.request(method=case.method, url=url, json=eval(case.data))
+  File "&lt;string&gt;", line 1, in &lt;module&gt;
+NameError: name 'null' is not defined
 
 
     </pre>
@@ -181,39 +182,27 @@ UnboundLocalError: local variable 'name_kh' referenced before assignment
     </td>
 </tr>
 
-<tr id='ft1_2' class='none'>
-    <td class='failCase'><div class='testcase'>test_addProduct_2: 添加客户</div></td>
-    <td colspan='5' align='center'>
-    <!--默认收起错误信息 -Findyou
-    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_2'>失败</button>
-    <div id='div_ft1_2' class="collapse">  -->
-    <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_2'>失败</button>
-    <div id='div_ft1_2' class="collapse in" align="left">
-    <pre>
-    
-ft1_2: Traceback (most recent call last):
-  File "D:\tontisaInterface\librarys\ddt.py", line 150, in wrapper
-    return func(self, *args, **kwargs)
-  File "D:\tontisaInterface\testcases\test_addProduct.py", line 81, in test_addProduct
-    raise e
-  File "D:\tontisaInterface\testcases\test_addProduct.py", line 74, in test_addProduct
-    self.assertEqual(case.excepted, res.text)
-AssertionError: None != '{"status":"10001","msg":"未登录","data":{}}'
+<tr class='passClass warning'>
+    <td>test_login.LoginTestCase</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
+</tr>
 
-
-    </pre>
-    </div>
-    </td>
+<tr id='pt2_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_addProduct_1: 账号正常登录</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
     <td>2</td>
+    <td>1</td>
     <td>0</td>
     <td>1</td>
-    <td>1</td>
-    <td>通过率：0.00%</td>
+    <td>通过率：50.00%</td>
 </tr>
 </table>
 

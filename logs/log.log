@@ -253,3 +253,167 @@ Diff is 11251 characters long. Set self.maxDiff to None to see it.
 2019-10-30 15:12:45,384 - [test_addProduct.py-->line:78] - ERROR: 
 用例--添加客户--未通过
 2019-10-30 15:12:45,385 - [test_addProduct.py-->line:79] - ERROR: None != '{"status":"110000","msg":"OK","data":{"m[1234 chars]ll}}'
+2020-08-10 15:16:51,648 - [test_addProduct.py-->line:79] - ERROR: 
+用例--账号正常登录--未通过
+2020-08-10 15:16:51,649 - [test_addProduct.py-->line:80] - ERROR: '{"status":"110000","msg":"OK","data":None}' != '{"status":"110000","msg":"OK","data":null}'
+- {"status":"110000","msg":"OK","data":None}
+?                                      -- ^
++ {"status":"110000","msg":"OK","data":null}
+?                                       ^^^
+
+2020-08-10 15:16:56,681 - [test_addProduct.py-->line:79] - ERROR: 
+用例--添加客户--未通过
+2020-08-10 15:16:56,682 - [test_addProduct.py-->line:80] - ERROR: 110000 != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2020-08-11 09:29:55,589 - [test_addProduct.py-->line:79] - ERROR: 
+用例--账号正常登录--未通过
+2020-08-11 09:29:55,590 - [test_addProduct.py-->line:80] - ERROR: '{"status":"110000","msg":"OK","data":None}' != '{"status":"110000","msg":"OK","data":null}'
+- {"status":"110000","msg":"OK","data":None}
+?                                      -- ^
++ {"status":"110000","msg":"OK","data":null}
+?                                       ^^^
+
+2020-08-11 09:30:21,736 - [test_addProduct.py-->line:79] - ERROR: 
+用例--正常创建--未通过
+2020-08-11 09:30:21,736 - [test_addProduct.py-->line:80] - ERROR: 110000 != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2020-08-11 09:30:26,116 - [test_addProduct.py-->line:79] - ERROR: 
+用例--正常创建--未通过
+2020-08-11 09:30:26,116 - [test_addProduct.py-->line:80] - ERROR: 110000 != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2020-08-11 09:44:30,735 - [test_addProduct.py-->line:79] - ERROR: 
+用例--正常创建--未通过
+2020-08-11 09:44:30,735 - [test_addProduct.py-->line:80] - ERROR: 110000 != '{"status":"251004","msg":"负责成员不能为空","data":null}'
+2020-08-15 17:53:46,140 - [test_addProduct.py-->line:79] - ERROR: 
+用例--正常创建--未通过
+2020-08-15 17:53:46,140 - [test_addProduct.py-->line:80] - ERROR: 110000 != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2020-08-15 17:57:49,365 - [test_addProduct.py-->line:79] - ERROR: 
+用例--正常创建--未通过
+2020-08-15 17:57:49,365 - [test_addProduct.py-->line:80] - ERROR: 110000 != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2020-08-15 18:00:59,265 - [test_addProduct.py-->line:79] - ERROR: 
+用例--正常创建--未通过
+2020-08-15 18:00:59,266 - [test_addProduct.py-->line:80] - ERROR: 110000 != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2020-08-15 18:01:12,270 - [test_addProduct.py-->line:79] - ERROR: 
+用例--正常创建--未通过
+2020-08-15 18:01:12,271 - [test_addProduct.py-->line:80] - ERROR: 110000 != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2020-08-22 11:41:17,772 - [test_addProduct.py-->line:79] - ERROR: 
+用例--正常创建--未通过
+2020-08-22 11:41:17,816 - [test_addProduct.py-->line:80] - ERROR: 110000 != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2020-08-22 14:45:51,021 - [test_addProduct.py-->line:79] - ERROR: 
+用例--正常创建--未通过
+2020-08-22 14:45:51,021 - [test_addProduct.py-->line:80] - ERROR: 110000 != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2020-08-22 14:46:29,477 - [test_addProduct.py-->line:79] - ERROR: 
+用例--正常创建--未通过
+2020-08-22 14:46:29,477 - [test_addProduct.py-->line:80] - ERROR: 110000 != '{"status":"110999","msg":"未知错误,请联系管理员!","data":null}'
+2020-08-22 14:50:28,489 - [test_addProduct.py-->line:79] - ERROR: 
+用例--正常创建--未通过
+2020-08-22 14:50:28,489 - [test_addProduct.py-->line:80] - ERROR: 110000 != '{"status":"110000","msg":"OK","data":{"m[3091 chars]ll}}'
+2020-08-24 11:23:45,258 - [test_addProduct.py-->line:80] - ERROR: 
+用例--账号正常登录--未通过
+2020-08-24 11:23:45,259 - [test_addProduct.py-->line:81] - ERROR: '{"status":"110000","msg":"OK","data":null}' != '110000'
+- {"status":"110000","msg":"OK","data":null}
++ 110000
+
+2020-08-24 11:23:49,284 - [test_addProduct.py-->line:80] - ERROR: 
+用例--账号正常登录--未通过
+2020-08-24 11:23:49,285 - [test_addProduct.py-->line:81] - ERROR: '{"status":"110000","msg":"OK","data":null}' != '110000'
+- {"status":"110000","msg":"OK","data":null}
++ 110000
+
+2020-08-24 11:23:52,512 - [test_addProduct.py-->line:80] - ERROR: 
+用例--正常创建--未通过
+2020-08-24 11:23:52,512 - [test_addProduct.py-->line:81] - ERROR: 110000 != '110000'
+2020-08-29 09:40:30,677 - [test_login.py-->line:64] - ERROR: 
+用例--账号正常登录--未通过
+2020-08-29 09:40:30,678 - [test_login.py-->line:65] - ERROR: 200 != '{"status":"200","msg":"OK","data":[{"cor[10675 chars]0}]}'
+2020-08-29 09:46:01,704 - [test_login.py-->line:64] - ERROR: 
+用例--账号正常登录--未通过
+2020-08-29 09:46:01,704 - [test_login.py-->line:65] - ERROR:  :: 200 != 200
+2020-09-01 11:23:20,646 - [test_login.py-->line:64] - ERROR: 
+用例--账号正常登录--未通过
+2020-09-01 11:23:20,647 - [test_login.py-->line:65] - ERROR: 200 != '200'
+2020-09-05 10:02:05,725 - [test_addProduct.py-->line:79] - ERROR: 
+用例--名称为空--未通过
+2020-09-05 10:02:05,726 - [test_addProduct.py-->line:80] - ERROR: '名称不能为空' != '{"status":"200","msg":"OK","data":{"corpI[296 chars]:0}}'
+- 名称不能为空
++ {"status":"200","msg":"OK","data":{"corpId":"1","id":"227630109887139840","parentId":null,"kid":"6","isEditable":1,"isEnable":1,"value":"1","extValue":"{\"1\":-1}","bySort":1,"memo":"1","createBy":null,"createByName":null,"createTime":"2020-09-05 10:01:05","updateBy":null,"updateByName":null,"updateTime":"2020-09-05 10:01:05","isDel":0}}
+
+2020-09-05 10:05:43,791 - [test_addPut.py-->line:79] - ERROR: 
+用例--名称为空--未通过
+2020-09-05 10:05:43,792 - [test_addPut.py-->line:80] - ERROR: '名称不能为空' != '{"status":"200","msg":"OK","data":{"corpI[296 chars]:0}}'
+- 名称不能为空
++ {"status":"200","msg":"OK","data":{"corpId":"1","id":"227631046190010368","parentId":null,"kid":"6","isEditable":1,"isEnable":1,"value":"1","extValue":"{\"1\":-1}","bySort":1,"memo":"1","createBy":null,"createByName":null,"createTime":"2020-09-05 10:04:43","updateBy":null,"updateByName":null,"updateTime":"2020-09-05 10:04:43","isDel":0}}
+
+2020-09-05 10:26:48,326 - [test_addPut.py-->line:79] - ERROR: 
+用例--名称为空--未通过
+2020-09-05 10:26:48,327 - [test_addPut.py-->line:80] - ERROR: '{\n    "status": "204106",\n    "msg": "名称不能为空",\n    "data": null\n}' != '{"status":"204106","msg":"名称不能为空","data":null}'
++ {"status":"204106","msg":"名称不能为空","data":null}- {
+-     "status": "204106",
+-     "msg": "名称不能为空",
+-     "data": null
+- }
+2020-09-05 10:39:45,442 - [test_addPut.py-->line:79] - ERROR: 
+用例--出入库类型为空--未通过
+2020-09-05 10:39:45,443 - [test_addPut.py-->line:80] - ERROR: '{"status":"204106","msg":"出入库类型不能为空","data":null}' != '{"status":"200","msg":"OK","data":{"corpId":"1","id":"[276 chars]:0}}'
+- {"status":"204106","msg":"出入库类型不能为空","data":null}
++ {"status":"200","msg":"OK","data":{"corpId":"1","id":"227639812218261504","parentId":null,"kid":"6","isEditable":1,"isEnable":1,"value":"采购入库","extValue":null,"bySort":1,"memo":"1","createBy":null,"createByName":null,"createTime":"2020-09-05 10:38:44","updateBy":null,"updateByName":null,"updateTime":"2020-09-05 10:38:44","isDel":0}}
+
+2020-09-05 11:53:02,454 - [test_addPut.py-->line:79] - ERROR: 
+用例--出入库类型为空--未通过
+2020-09-05 11:53:02,455 - [test_addPut.py-->line:80] - ERROR: '{"status":"204106","msg":"出入库类型不能为空","data":null}' != '{"status":"200","msg":"OK","data":{"corpId":"1","id":"[276 chars]:0}}'
+- {"status":"204106","msg":"出入库类型不能为空","data":null}
++ {"status":"200","msg":"OK","data":{"corpId":"1","id":"227658684304560128","parentId":null,"kid":"6","isEditable":1,"isEnable":1,"value":"采购入库","extValue":null,"bySort":1,"memo":"1","createBy":null,"createByName":null,"createTime":"2020-09-05 11:51:58","updateBy":null,"updateByName":null,"updateTime":"2020-09-05 11:51:58","isDel":0}}
+
+2020-09-05 11:53:02,709 - [test_addPut.py-->line:79] - ERROR: 
+用例--排序为空--未通过
+2020-09-05 11:53:02,709 - [test_addPut.py-->line:80] - ERROR: '{"status":"204106","msg":"排序权重不能为空","data":null}' != '{"status":"204108","msg":"排序权重不能为空","data":null}'
+- {"status":"204106","msg":"排序权重不能为空","data":null}
+?                 ^
++ {"status":"204108","msg":"排序权重不能为空","data":null}
+?                 ^
+
+2020-09-05 11:53:34,904 - [test_addPut.py-->line:79] - ERROR: 
+用例--出入库类型为空--未通过
+2020-09-05 11:53:34,905 - [test_addPut.py-->line:80] - ERROR: '{"status":"204106","msg":"出入库类型不能为空","data":null}' != '{"status":"200","msg":"OK","data":{"corpId":"1","id":"[276 chars]:0}}'
+- {"status":"204106","msg":"出入库类型不能为空","data":null}
++ {"status":"200","msg":"OK","data":{"corpId":"1","id":"227658821743513600","parentId":null,"kid":"6","isEditable":1,"isEnable":1,"value":"采购入库","extValue":null,"bySort":1,"memo":"1","createBy":null,"createByName":null,"createTime":"2020-09-05 11:52:30","updateBy":null,"updateByName":null,"updateTime":"2020-09-05 11:52:30","isDel":0}}
+
+2020-09-08 18:19:10,076 - [test_addPut.py-->line:79] - ERROR: 
+用例--出入库类型为空--未通过
+2020-09-08 18:19:10,086 - [test_addPut.py-->line:80] - ERROR: '{"status":"204106","msg":"出入库类型不能为空","data":null}' != '{"status":"200","msg":"OK","data":{"corpId":"1","id":"[306 chars]:0}}'
+- {"status":"204106","msg":"出入库类型不能为空","data":null}
++ {"status":"200","msg":"OK","data":{"corpId":"1","id":"228871411270258688","parentId":null,"path":"[228871411270258688]","kid":"6","isEditable":1,"isEnable":1,"value":"采购入库","extValue":null,"bySort":1,"memo":"1","createBy":null,"createByName":null,"createTime":"2020-09-08 18:17:58","updateBy":null,"updateByName":null,"updateTime":"2020-09-08 18:17:58","isDel":0}}
+
+2020-09-11 10:47:06,094 - [test_addPut.py-->line:79] - ERROR: 
+用例--出入库类型为空--未通过
+2020-09-11 10:47:06,095 - [test_addPut.py-->line:80] - ERROR: '{"status":"204106","msg":"出入库类型不能为空","data":null}' != '{"status":"200","msg":"OK","data":{"corpId":"1","id":"[352 chars]ll}}'
+- {"status":"204106","msg":"出入库类型不能为空","data":null}
++ {"status":"200","msg":"OK","data":{"corpId":"1","id":"229868148625608704","parentId":null,"path":"[229868148625608704]","kid":"6","isEditable":1,"isEnable":1,"value":"采购入库","extValue":null,"bySort":1,"memo":"1","createBy":null,"createByName":null,"createTime":"2020-09-11 10:45:49","updateBy":null,"updateByName":null,"updateTime":"2020-09-11 10:45:49","isDel":0,"ids":null,"parentValue":null,"children":null}}
+
+2020-10-13 16:39:04,500 - [test_addPut.py-->line:79] - ERROR: 
+用例--名称为空--未通过
+2020-10-13 16:39:04,501 - [test_addPut.py-->line:80] - ERROR: '{"status":"204106","msg":"名称不能为空","data":null}' != '{"status":"110901","msg":"未登录","data":null}'
+- {"status":"204106","msg":"名称不能为空","data":null}
+?            ^^^  ^         ^^^^^^
++ {"status":"110901","msg":"未登录","data":null}
+?            ^  ^^^         ^^^
+
+2020-10-13 16:39:04,866 - [test_addPut.py-->line:79] - ERROR: 
+用例--出入库类型为空--未通过
+2020-10-13 16:39:04,866 - [test_addPut.py-->line:80] - ERROR: '{"status":"204106","msg":"出入库类型不能为空","data":null}' != '{"status":"110901","msg":"未登录","data":null}'
+- {"status":"204106","msg":"出入库类型不能为空","data":null}
+?            ^^^  ^         ^^^^^^^^^
++ {"status":"110901","msg":"未登录","data":null}
+?            ^  ^^^         ^^^
+
+2020-10-13 16:39:05,217 - [test_addPut.py-->line:79] - ERROR: 
+用例--排序为空--未通过
+2020-10-13 16:39:05,217 - [test_addPut.py-->line:80] - ERROR: '{"status":"204108","msg":"排序权重不能为空","data":null}' != '{"status":"110901","msg":"未登录","data":null}'
+- {"status":"204108","msg":"排序权重不能为空","data":null}
+?            ^^^  ^         ^^^^^^^^
++ {"status":"110901","msg":"未登录","data":null}
+?            ^  ^^^         ^^^
+
+2020-10-13 16:39:05,614 - [test_login.py-->line:64] - ERROR: 
+用例--账号正常登录--未通过
+2020-10-13 16:39:05,614 - [test_login.py-->line:65] - ERROR: 200 != 110901
+2020-10-13 16:39:06,395 - [test_query.py-->line:64] - ERROR: 
+用例--查询--未通过
+2020-10-13 16:39:06,395 - [test_query.py-->line:65] - ERROR: 200 != 110901

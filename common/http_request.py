@@ -63,26 +63,26 @@ class HTTPRequest2(object):
     def close(self):
         self.session.close()
 
-class GetData(object):
-    def login(self):
-        url = "http://xqtest.op110.com.cn/tontisa-xq-shiro/ajaxLogin"
-        data = {
-            "username": "admin",
-            "password": "12345678"
-        }
-        response = requests.post(url=url, json=json.dumps(data))
-        return response.cookies
-
-
-
-if __name__ == '__main__':
-    url = "http://xqtest.op110.com.cn/tontisa-xq-shiro/ajaxLogin"
-    data = {
-        "username":"admin",
-        "password":"12345678"
-    }
-    response = requests.post(url=url, json=data)
-    print(response.text)
-    print(response.status_code)
-    print(response.cookies)
+# class GetData(object):
+#     def login(self):
+#         url = "http://xqtest.op110.com.cn/tontisa-xq-shiro/ajaxLogin"
+#         data = {
+#             "username": "admin",
+#             "password": "12345678"
+#         }
+#         response = requests.post(url=url, json=json.dumps(data))
+#         return response.cookies
+#
+#
+#
+# if __name__ == '__main__':
+#     url = "http://xqtest.op110.com.cn/tontisa-xq-shiro/ajaxLogin"
+#     data = {
+#         "username":"admin",
+#         "password":"12345678"
+#     }
+#     response = requests.post(url=url, json=data)
+#     print(response.text)
+#     print(response.status_code)
+#     print(response.cookies)
 

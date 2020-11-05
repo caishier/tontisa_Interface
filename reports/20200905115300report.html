@@ -116,9 +116,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">接口测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> shier</p>
-<p class='attribute'><strong>开始时间 : </strong> 2019-10-30 15:02:07</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.499687</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 2，通过 1，错误 1，通过率= 50.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2020-09-05 11:53:01</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:01.781014</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 4，通过 2，失败 2，通过率= 50.00%</p>
 
 <p class='description'>测试报告</p>
 </div>
@@ -126,9 +126,9 @@ function html_escape(s) {
 
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 50.00% }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 1 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 2 }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 2 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 2 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 4 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -148,40 +148,42 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
-<tr class='errorClass warning'>
-    <td>test_addProduct.AddProductTestCase</td>
+<tr class='failClass warning'>
+    <td>test_addPut.AddPutTestCase</td>
+    <td class="text-center">3</td>
+    <td class="text-center">1</td>
     <td class="text-center">2</td>
-    <td class="text-center">1</td>
     <td class="text-center">0</td>
-    <td class="text-center">1</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',2)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',3)" class="detail" id='c1'>详细</a></td>
 </tr>
 
 <tr id='pt1_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_addProduct_1: 账号正常登录</div></td>
+    <td class='passCase'><div class='testcase'>test_addPut_1: 名称为空</div></td>
     <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
 </tr>
 
 <tr id='ft1_2' class='none'>
-    <td class='errorCase'><div class='testcase'>test_addProduct_2: 添加客户</div></td>
+    <td class='failCase'><div class='testcase'>test_addPut_2: 出入库类型为空</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_2'>错误</button>
+    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_2'>失败</button>
     <div id='div_ft1_2' class="collapse">  -->
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_2'>错误</button>
+    <button id='btn_ft1_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_2'>失败</button>
     <div id='div_ft1_2' class="collapse in" align="left">
     <pre>
     
 ft1_2: Traceback (most recent call last):
-  File "D:\tontisaInterface\librarys\ddt.py", line 150, in wrapper
+  File "D:\gitHub\tontisaInterface\librarys\ddt.py", line 150, in wrapper
     return func(self, *args, **kwargs)
-  File "D:\tontisaInterface\testcases\test_addProduct.py", line 72, in test_addProduct
-    res = self.request.request(method=case.method, url=url, json=eval(case.data))
-  File "&lt;string&gt;", line 1
-    {"id":None,"name":*customer_name*,"nameLang":None,"isManageDataRange":None,"parentId":None,"parentName":None,"parentPath":None,"tags":None,"type":"[1]","fax":None,"partnerType":None,"partnerTypeId":None,"email":None,"website":None,"cityId":None,"cityName":None,"address":None,"createTime":None,"createBy":None,"createByName":None,"partnerUserId":None,"partnerUserName":None,"mobile":None,"remark":None,"ownDeptId":"1397469522389942272","ownDeptName":"同天下","ownUserId":"50","ownUserName":"123","assistUserIds":None,"assistUserNames":None,"currencyCode":"CNY","currencySign":"¥","resPartnerUserList":[],"goodsList":None,"requestResourceId":"282"}
-                      ^
-SyntaxError: invalid syntax
+  File "D:\gitHub\tontisaInterface\testcases\test_addPut.py", line 83, in test_addPut
+    raise e
+  File "D:\gitHub\tontisaInterface\testcases\test_addPut.py", line 76, in test_addPut
+    self.assertEqual(case.excepted, res.text)
+AssertionError: '{"status":"204106","msg":"出入库类型不能为空","data":null}' != '{"status":"200","msg":"OK","data":{"corpId":"1","id":"[276 chars]:0}}'
+- {"status":"204106","msg":"出入库类型不能为空","data":null}
++ {"status":"200","msg":"OK","data":{"corpId":"1","id":"227658684304560128","parentId":null,"kid":"6","isEditable":1,"isEnable":1,"value":"采购入库","extValue":null,"bySort":1,"memo":"1","createBy":null,"createByName":null,"createTime":"2020-09-05 11:51:58","updateBy":null,"updateByName":null,"updateTime":"2020-09-05 11:51:58","isDel":0}}
+
 
 
     </pre>
@@ -189,12 +191,57 @@ SyntaxError: invalid syntax
     </td>
 </tr>
 
+<tr id='ft1_3' class='none'>
+    <td class='failCase'><div class='testcase'>test_addPut_3: 排序为空</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_3' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_3'>失败</button>
+    <div id='div_ft1_3' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_3' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_3'>失败</button>
+    <div id='div_ft1_3' class="collapse in" align="left">
+    <pre>
+    
+ft1_3: Traceback (most recent call last):
+  File "D:\gitHub\tontisaInterface\librarys\ddt.py", line 150, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\gitHub\tontisaInterface\testcases\test_addPut.py", line 83, in test_addPut
+    raise e
+  File "D:\gitHub\tontisaInterface\testcases\test_addPut.py", line 76, in test_addPut
+    self.assertEqual(case.excepted, res.text)
+AssertionError: '{"status":"204106","msg":"排序权重不能为空","data":null}' != '{"status":"204108","msg":"排序权重不能为空","data":null}'
+- {"status":"204106","msg":"排序权重不能为空","data":null}
+?                 ^
++ {"status":"204108","msg":"排序权重不能为空","data":null}
+?                 ^
+
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr class='passClass warning'>
+    <td>test_login.LoginTestCase</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">0</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',1)" class="detail" id='c2'>详细</a></td>
+</tr>
+
+<tr id='pt2_1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_addProduct_1: 账号正常登录</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+</tr>
+
 <tr id='total_row' class="text-center active">
     <td>总计</td>
+    <td>4</td>
     <td>2</td>
-    <td>1</td>
+    <td>2</td>
     <td>0</td>
-    <td>1</td>
     <td>通过率：50.00%</td>
 </tr>
 </table>

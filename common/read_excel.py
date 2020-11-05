@@ -74,8 +74,10 @@ class ReadExcel(object):
             #创建一个Case类的对象，用来保存用列数据
             case_obj = Case(case_data)
             cases.append(case_obj)
+            print(case_obj.data)
         self.close()
         return cases
+
 
     def readline_data_obj(self,list1=None):
         """
@@ -123,8 +125,6 @@ class ReadExcel(object):
         self.wb.save(self.file_name)
         self.close()
 
-if __name__ == '__main__':
-    r = ReadExcel('../data/cases.xlsx', 'register')
-    data = r.read_data_obj()
-    print(data)
+
+
 

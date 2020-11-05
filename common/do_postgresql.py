@@ -57,9 +57,9 @@ class ReadPostfresql(object):
         """断开连接"""
         self.cur.close()
         self.con.close()
-
-if __name__ == '__main__':
-    db = ReadPostfresql()
-    sql = "select * from sys_user where mobile = '17531022770'"
-    rs = db.find_one(sql)
-    print(rs)
+#
+# if __name__ == '__main__':
+#     db = ReadPostfresql()
+#     sql = "select * from sys_user where mobile = '17531022770'"
+#     rs = db.find_one(sql)
+#     print(rs)
